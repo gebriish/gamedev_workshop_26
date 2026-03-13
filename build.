@@ -1,9 +1,0 @@
-@echo off
-
-set BUILD=bin
-set BIN=FlappyBird
-
-rmdir /s /q %BUILD%
-mkdir %BUILD%
-
-odin build ./src -out:%BUILD%/%BIN%
