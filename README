@@ -3,6 +3,23 @@
          from the 2026 YACC gamedev bootcamp
 ===========================================================
 
+
+- How to compile and run the game
+	* Download the Odin compiler ( https://odin-lang.org/docs/install )
+	* If you are on windows, download MSVC build tools
+	* If you are on linux, install clang
+	* Extract the odin compiler to a desired location
+	  and add it to your Environment Variables ( Windows) or
+	  your systems PATHS ( linux )
+	* run `$ odin version` to see if everything works fine
+
+	* detailed instructions for installation are given in the official
+	  website https://odin-lang.org/docs/install
+
+	* Inside the game directory, run the build.sh ( linux ) or the build.bat
+	  (windows) script to compile the game. An executable should have been 
+	  created inside "./bin".
+
 - Useful links for interest folks
 	* https://odin-lang.org
 	* https://www.gingerbill.org/series/memory-allocation-strategies
